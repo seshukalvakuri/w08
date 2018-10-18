@@ -5,7 +5,7 @@
   
     // Perform an asynchronous HTTP (Ajax) API request.
     function callRestAPI() {
-      var root = 'https://jsonplaceholder.typicode.com'
+      var root = 'https://jsonplaceholder.typicode.com/posts/55'
       $.ajax({
         url: root + '/posts/1',
         method: 'GET'
